@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LicentaJava</string>
+    <string name="facebook_app_id">406599603649050</string>
+    <string name="fb_login_protocol_scheme">fb406599603649050</string>
+</resources>
