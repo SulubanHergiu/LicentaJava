@@ -40,20 +40,7 @@ public class OwnedListAdapter extends RecyclerView.Adapter<OwnedListAdapter.View
         holder.textViewDescr.setText(event.getDescription());
         holder.textViewDate.setText(event.getStart_time());
         holder.textViewLocation.setText(event.getPlace());
-        holder.linearLayout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                Intent eventIntent = new Intent(context, EventActivity.class);
-                eventIntent.putExtra("id",event.getId());
-                eventIntent.putExtra("status","Attending");
-                eventIntent.putExtra("description",event.getDescription());
-                eventIntent.putExtra("name",event.getName());
-                eventIntent.putExtra("time",event.getStart_time());
-                eventIntent.putExtra("location",event.getPlace());
-                context.startActivity(eventIntent);
-            }
-        });
     }
 
     public class ViewHolderOwned extends RecyclerView.ViewHolder{

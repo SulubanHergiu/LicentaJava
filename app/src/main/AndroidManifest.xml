@@ -3,6 +3,7 @@
     package="com.example.licentajava">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -11,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".EventActivity"></activity>
+        <activity android:name=".AttendeeListActivity"></activity>
         <activity android:name=".LogedInActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

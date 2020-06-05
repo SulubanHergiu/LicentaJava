@@ -1,4 +1,4 @@
-package com.example.licentajava;
+package com.example.licentajava.Utils;
 import android.os.Build;
 
 import com.google.android.gms.nearby.messages.Message;

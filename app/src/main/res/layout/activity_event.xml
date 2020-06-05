@@ -73,28 +73,6 @@
                     android:layout_marginBottom="5dp"></TextView>
             </LinearLayout>
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp">
-
-
-                <TextView
-                    android:id="@+id/desriptionText"
-                    android:text="Description: "
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:textColor="@color/com_facebook_blue"></TextView>
-                <TextView
-                    android:id="@+id/eventDescription"
-                    android:text="Location: "
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:layout_marginBottom="5dp"></TextView>
-            </LinearLayout>
 
             <Button
                 android:id="@+id/message_button"
@@ -103,7 +81,7 @@
                 android:layout_marginTop="100dp"
                 android:layout_gravity="center"
                 android:background="@drawable/button_backround"
-                android:text="Message"
+                android:text="Make attendance"
                 android:textColor="#FFFFFF" />
             <Button
                 android:id="@+id/email_button"
@@ -112,7 +90,16 @@
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center"
                 android:background="@drawable/button_backround"
-                android:text="Email"
+                android:text="see attendance List"
+                android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/exit_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/button_backround"
+                android:text="Cancel"
                 android:textColor="#FFFFFF" />
 
         </LinearLayout>
